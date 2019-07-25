@@ -1,10 +1,10 @@
 /* The for principles of "this";
 * in your own words. explain the four principle for the "this" keyword below.
 *
-* 1. Global, simple proccess
-* 2. Implicit binding, can all with 
-* 3. New binding
-* 4. Explicit Binding
+* 1. Window binding- if no rules apply default to windows object unless on strict mode return undefined
+* 2. Implicit binding- LTTLOTD look to the left of the dot
+* 3. New binding when you have a function created with the new keyword binding the this keyword to the object being created
+* 4. Explicit Binding - telling the function that the this keyword is going to be using call apply or bind.
 *
 * write out a code example of each explanation above
 */
